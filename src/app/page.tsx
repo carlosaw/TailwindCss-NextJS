@@ -1,8 +1,8 @@
 const Page = () => (
   
   
-    <figure className="md:flex items-center bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-      <img className="w-40 h-40 md:w-auto md:h-auto md:rounded-none rounded-full mx-auto" src="/bf.jpg" alt="" width="384" height="518" />
+    <figure className="border-cyan-400 border-2 md:flex items-center bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+      <img className="border-cyan-400 border-2 md:rounded-md md:m-4 w-40 h-40 md:w-auto rounded-full mx-auto" src="/foto3.webp" alt="" width="384" height="384" />
       <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
           <p className="text-lg font-medium">
