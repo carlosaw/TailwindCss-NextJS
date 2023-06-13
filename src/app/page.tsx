@@ -1,28 +1,28 @@
 const Page = () => (
-  
-  
-    <figure className="border-cyan-400 border-2 md:flex items-center bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-      <img className="border-cyan-400 border-2 md:rounded-md md:m-4 w-40 h-40 md:w-auto rounded-full mx-auto" src="/foto3.webp" alt="" width="384" height="384" />
-      <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-        <blockquote>
-          <p className="text-lg font-medium">
-          “A preguiça anda tão devagar que a pobreza facilmente a alcança.”
-          “Um irmão pode não ser um amigo, mas um amigo será sempre um irmão.”
-          “Viver é enfrentar um problema atrás do outro.”
-          </p>
-        </blockquote>
-        <figcaption className="font-medium">
-          <div className="text-sky-500 dark:text-sky-400">
-            Benjamin Franklin
-          </div>
-          <div className="text-slate-700 dark:text-slate-500">
-            Político, EUA
-          </div>
-        </figcaption>
-      </div>
-    </figure>
 
- 
-)
+  <div className="container mx-auto">
+
+    <div className="p-3 rounded-md bg-gray-400">
+      
+      <div className="grid grid-cols-1 gap-2">
+        <div className="w-full h-60 bg-cover bg-center bg-[url(https://www.smalldesignideas.com/wp-content/uploads/2015/02/stone-house-facade-design.jpg)]"></div>
+        <div className="grid grid-cols-2 gap-2">
+          <div className="w-full h-60 bg-cover bg-center bg-[url(https://images.adsttc.com/media/images/58f9/7c3c/e58e/cea0/5200/04e5/large_jpg/feature_image.jpg?1492745271)]"></div>
+          <div className="w-full h-60 bg-cover bg-center bg-[url(https://s-media-cache-ak0.pinimg.com/originals/04/52/26/045226de010415e7db45df48848abfd7.jpg)]"></div>        
+        </div>        
+      </div>
+      
+      <div className="text-2xl font-bold mt-3">Título da casa</div>
+      <div className="flex gap-2 mt-3">
+        <div className="rounded-full px-3 py-1 text-sm bg-green-700 text-white">Campo</div>
+        <div className="rounded-full px-3 py-1 text-sm bg-green-700 text-white">Moderno</div>
+        <div className="rounded-full px-3 py-1 text-sm bg-green-700 text-white">Piscina</div>
+      </div> 
+
+    </div>
+
+  </div>
+
+);
 
 export default Page;
