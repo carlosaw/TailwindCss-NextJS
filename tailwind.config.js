@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  //prefix: 'aw2-',
   content: [
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
